@@ -2,7 +2,7 @@ const request = require("request");
 const express = require("express");
 const ejs = require("ejs");
 const bodyParser = require("body-parser");
-var port = process.env.port || 8080;
+var port = process.env.PORT || 8080;
 var app = express();
 
 app.set("view engine", "ejs");
